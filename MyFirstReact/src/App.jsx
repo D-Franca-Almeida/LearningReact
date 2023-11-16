@@ -1,6 +1,7 @@
 import MyComponent from "./components/MyComponent"
 import MyNewComponentButton from "./components/MyNewComponentButton"
 import MyContador from "./components/MyContador"
+import MinhaLista from "./components/MinhaLista"
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
       <MyNewComponentButton conteudo='CliqueDepois'></MyNewComponentButton>
       <br></br>
       <MyContador></MyContador>
+      <MinhaLista/>
     </div>
   )
 }
