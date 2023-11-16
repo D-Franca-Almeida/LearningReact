@@ -15,7 +15,7 @@ export default function MyContador() {
     if (contador > 5) {
         return (
             
-            <div>
+            <div className="container">
                 <h1> Valor muito alto</h1>
                 <button onClick={aumentar}> Aumentar</button>
                 <button onClick={diminuir}>Diminuir</button>
@@ -24,7 +24,7 @@ export default function MyContador() {
     }
 
     return (
-        <div>
+        <div className="container">
             <h1>Meu Contador? {contador}</h1>
             <button onClick={aumentar}> Aumentar</button>
             <button onClick={diminuir}>Diminuir</button>
